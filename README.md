@@ -1,2 +1,3 @@
-# logica-js-Game
- Olá Mundo, nesse projeto criaremos um jogo utilizando javascript e trabalhando a lógica de programação.
+# Olá Mundo! :alien:
+---
+ Nesse projeto criaremos um jogo utilizando _javascript_ e trabalhando a _lógica de programação._
