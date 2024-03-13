@@ -9,6 +9,7 @@ while (chute != numeroSecreto) {
     chute = prompt('Escolha um número entre 1 e 10');
     // se chute for igual ao número secreto
     if (chute == numeroSecreto) {
+        break;
         alert(`Isso ai! você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas.`);
     } else{
        if (chute > numeroSecreto) {
@@ -19,4 +20,10 @@ while (chute != numeroSecreto) {
        //tentativas = tentativas +1;
        tentativas++;
    }
+}
+
+if (tentativas > 1) {
+    alert(`Isso aí! você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas.`);
+} else{
+    alert(`Isso aí! você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativa.`); 
 }
